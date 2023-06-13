@@ -3,3 +3,8 @@ build:
 
 run: build
 	./bin/4byteScraper
+
+clean:
+	rm -rf bin
+
+.PHONY: build run clean
